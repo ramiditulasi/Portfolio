@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tulasi Reddy Ramidi | Software Engineer & Data Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Tulasi Reddy Ramidi - B.Tech IT Fresher (2026 Batch) seeking Software Engineer and Data Analyst roles. Skilled in Java, Python, SQL, Web Development, ML, and Cloud." />
+  <meta name="keywords" content="Tulasi Reddy Ramidi, Software Engineer, Data Analyst, Fresher, Portfolio, Java, Python, React, Machine Learning, Power BI" />
+  <meta name="author" content="Tulasi Reddy Ramidi" />
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tulasi Reddy Ramidi | Software Engineer & Data Analyst" />
+  <meta property="og:description" content="Explore projects in Machine Learning, Business Analytics, Full-Stack Web Development, and Android." />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Reading Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress"></div>
+
+  <!-- Background Ambient Glows -->
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+  <div class="bg-glow glow-3"></div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-code">&lt;</span>
+        <span class="brand-name">Tulasi Reddy</span>
+        <span class="brand-code">/&gt;</span>
+      </a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="resume.html" class="nav-link" title="View Printable Resume"><i class="fa-regular fa-file-lines"></i> Resume</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">
+          <i class="fa-solid fa-moon dark-icon"></i>
+          <i class="fa-solid fa-sun light-icon"></i>
+        </button>
+
+        <!-- Quick Hire CTA -->
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">
+          <span>Hire Me</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Open to Work Fresher Badge -->
+          <div class="status-badge-wrapper">
+            <div class="status-badge">
+              <span class="status-dot"></span>
+              <span class="status-text"><strong>Open to Work</strong> &bull; 2026 Batch Fresher</span>
+            </div>
+            <span class="status-roles">Seeking: Software Engineer &bull; Data Analyst Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Tulasi Reddy Ramidi</span>
+          </h1>
+
+          <div class="hero-role-wrapper">
+            <span class="role-prefix">I build </span>
+            <span class="typing-text" id="typing-text"></span>
+            <span class="cursor">&nbsp;</span>
+          </div>
+
+          <p class="hero-description">
+            B.Tech Information Technology student at <strong>CVR College of Engineering, Hyderabad</strong>.
+            Passionate about building scalable backend services, predictive machine learning models,
+            and insightful business intelligence dashboards. Certified in <strong>AWS Cloud</strong> &amp; <strong>UiPath RPA</strong>.
+          </p>
+
+          <!-- Key Highlights Chips -->
+          <div class="hero-chips">
+            <span class="chip"><i class="fa-brands fa-java"></i> Java &amp; DSA</span>
+            <span class="chip"><i class="fa-brands fa-python"></i> Python &amp; ML</span>
+            <span class="chip"><i class="fa-solid fa-chart-line"></i> Power BI &amp; SQL</span>
+            <span class="chip"><i class="fa-brands fa-aws"></i> AWS Certified</span>
+          </div>
+
+          <!-- CTAs -->
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-laptop-code"></i>
+              <span>Explore Projects</span>
+            </a>
+            <a href="resume.html" class="btn btn-secondary" title="View & Print Resume">
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>View Resume</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="tel:+918885336249" class="social-link" aria-label="Phone Number" title="+91 8885336249">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="mailto:ramiditulasi@gmail.com" class="social-link" aria-label="Email" title="ramiditulasi@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <span class="location-badge">
+              <i class="fa-solid fa-location-dot"></i> Hyderabad, India
+            </span>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Stats Card -->
+        <div class="hero-card-col">
+          <div class="profile-card glass-panel">
+            <div class="profile-avatar-wrapper">
+              <div class="avatar-ring">
+                <div class="avatar-inner">
+                  <span class="avatar-initials">TR</span>
+                </div>
+              </div>
+              <div class="active-badge" title="Active & Ready to Interview">
+                <i class="fa-solid fa-bolt"></i> Ready to Join
+              </div>
+            </div>
+
+            <div class="profile-info text-center">
+              <h3 class="profile-name">Tulasi Reddy Ramidi</h3>
+              <p class="profile-title">Software Engineer / Data Analyst Aspirant</p>
+              <div class="profile-meta">
+                <span><i class="fa-solid fa-graduation-cap"></i> CVR College of Engg</span>
+                <span><i class="fa-solid fa-calendar-check"></i> Class of 2026</span>
+              </div>
+            </div>
+
+            <!-- Quick Stats Grid -->
+            <div class="stats-grid">
+              <div class="stat-card">
+                <span class="stat-number" data-count="4">4</span>
+                <span class="stat-label">Core Projects</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number" data-count="540">540K+</span>
+                <span class="stat-label">Records Analyzed</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number" data-count="4">4</span>
+                <span class="stat-label">Certifications</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number" data-count="7.23">7.23</span>
+                <span class="stat-label">B.Tech CGPA</span>
+              </div>
+            </div>
+
+            <!-- Fresher Quick Summary Box -->
+            <div class="fresher-tagbox">
+              <div class="tagbox-header">
+                <i class="fa-solid fa-sparkles"></i> <strong>Why Hire Me as a Fresher?</strong>
+              </div>
+              <ul class="tagbox-list">
+                <li><i class="fa-solid fa-check"></i> Strong CS Core: Java, OOP, DBMS &amp; DSA</li>
+                <li><i class="fa-solid fa-check"></i> Analytical Mindset with Python, SQL &amp; Power BI</li>
+                <li><i class="fa-solid fa-check"></i> Proven hands-on projects with real datasets &amp; APIs</li>
+                <li><i class="fa-solid fa-check"></i> High adaptibility &amp; eager to contribute immediately</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Get to Know Me</span>
+          <h2 class="section-title">About <span class="gradient-text">Tulasi Reddy</span></h2>
+          <p class="section-subtitle">
+            An ambitious Information Technology undergraduate ready to bring passion, rigor, and technical expertise to your engineering and analytics teams.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Story / Bio -->
+          <div class="about-text glass-panel">
+            <h3 class="about-heading">
+              <i class="fa-solid fa-terminal text-accent"></i> My Background &amp; Philosophy
+            </h3>
+            <p>
+              I am currently pursuing my <strong>B.Tech in Information Technology</strong> at CVR College of Engineering, Hyderabad (2022–2026).
+              My journey in tech combines a solid grounding in computer science fundamentals with curiosity-driven building.
+            </p>
+            <p>
+              Whether it's designing an end-to-end <strong>Credit Card Fraud Detection pipeline</strong> handling over 280,000 transactions with FastAPI,
+              dissecting half a million retail records to extract actionable <strong>RFM customer segments</strong>, or building a <strong>real-time Android surplus-food donation app</strong>,
+              I enjoy solving real problems with clean code and data-driven insights.
+            </p>
+            <p>
+              As a fresher entering the workforce, I bring not only technical competence in <strong>Java, Python, SQL, and Full-Stack frameworks</strong>, but also a dedicated work ethic,
+              collaboration skills, and the agility to pick up any stack required by the team.
+            </p>
+
+            <div class="about-contact-quick">
+              <div class="contact-pill">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:ramiditulasi@gmail.com">ramiditulasi@gmail.com</a>
+              </div>
+              <div class="contact-pill">
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+918885336249">+91 8885336249</a>
+              </div>
+              <div class="contact-pill">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Hyderabad, Telangana, India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fresher Pillars / Competencies -->
+          <div class="about-pillars">
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon icon-blue">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Software Engineering</h4>
+                <p>Clean OOP architecture, Data Structures in Java, RESTful API design with FastAPI and Flask, and modern web application development.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon icon-cyan">
+                <i class="fa-solid fa-chart-pie"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Data Analytics &amp; BI</h4>
+                <p>Exploratory Data Analysis (EDA) with pandas and NumPy, complex SQL querying, and executive KPI reporting in Power BI &amp; Excel.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon icon-purple">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Machine Learning &amp; AI</h4>
+                <p>Classification models, preprocessing imbalanced datasets, medical image detection prototypes, and conversational NLP chatbots.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon icon-orange">
+                <i class="fa-solid fa-cloud"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Cloud &amp; Automation</h4>
+                <p>Certified in AWS Cloud Foundations and UiPath Robotic Process Automation (RPA), with disciplined Git/GitHub version control workflows.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Technical Toolbelt</span>
+          <h2 class="section-title">Skills &amp; <span class="gradient-text">Technologies</span></h2>
+          <p class="section-subtitle">
+            A versatile set of programming languages, frameworks, data tools, and core computer science concepts.
+          </p>
+        </div>
+
+        <!-- Skills Filter Tabs -->
+        <div class="filter-tabs" id="skills-filter">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="languages">Languages &amp; Core</button>
+          <button class="filter-btn" data-filter="data-ml">Data &amp; ML</button>
+          <button class="filter-btn" data-filter="web-db">Web &amp; Databases</button>
+          <button class="filter-btn" data-filter="cloud-tools">Cloud &amp; Tools</button>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category-card glass-panel" data-category="languages">
+            <div class="category-header">
+              <div class="category-icon icon-blue"><i class="fa-solid fa-laptop-code"></i></div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge"><i class="fa-brands fa-java text-orange"></i> Java</span>
+              <span class="skill-badge"><i class="fa-brands fa-python text-blue"></i> Python</span>
+              <span class="skill-badge"><i class="fa-brands fa-js text-yellow"></i> JavaScript</span>
+              <span class="skill-badge"><i class="fa-solid fa-database text-cyan"></i> SQL</span>
+            </div>
+          </div>
+
+          <!-- Core CS Concepts -->
+          <div class="skill-category-card glass-panel" data-category="languages">
+            <div class="category-header">
+              <div class="category-icon icon-purple"><i class="fa-solid fa-cubes"></i></div>
+              <h3>Core CS Concepts</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge"><i class="fa-solid fa-diagram-project"></i> Data Structures (Java)</span>
+              <span class="skill-badge"><i class="fa-solid fa-sitemap"></i> Object-Oriented Prog (OOP)</span>
+              <span class="skill-badge"><i class="fa-solid fa-server"></i> DBMS &amp; Normalization</span>
+              <span class="skill-badge"><i class="fa-solid fa-network-wired"></i> RESTful Architecture</span>
+              <span class="skill-badge"><i class="fa-solid fa-gears"></i> Algorithms</span>
+            </div>
+          </div>
+
+          <!-- Web & Databases -->
+          <div class="skill-category-card glass-panel" data-category="web-db">
+            <div class="category-header">
+              <div class="category-icon icon-cyan"><i class="fa-solid fa-globe"></i></div>
+              <h3>Web &amp; Databases</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge"><i class="fa-brands fa-react text-cyan"></i> React.js</span>
+              <span class="skill-badge"><i class="fa-brands fa-node-js text-green"></i> Node.js</span>
+              <span class="skill-badge"><i class="fa-solid fa-bolt"></i> Express.js</span>
+              <span class="skill-badge"><i class="fa-brands fa-html5 text-orange"></i> HTML5 &amp; CSS3</span>
+              <span class="skill-badge"><i class="fa-solid fa-database text-blue"></i> MySQL</span>
+              <span class="skill-badge"><i class="fa-solid fa-fire text-yellow"></i> Firebase</span>
+            </div>
+          </div>
+
+          <!-- Data Analytics & ML -->
+          <div class="skill-category-card glass-panel" data-category="data-ml">
+            <div class="category-header">
+              <div class="category-icon icon-green"><i class="fa-solid fa-chart-simple"></i></div>
+              <h3>Data &amp; Machine Learning</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge"><i class="fa-solid fa-chart-pie text-yellow"></i> Power BI</span>
+              <span class="skill-badge"><i class="fa-solid fa-file-excel text-green"></i> Advanced Excel</span>
+              <span class="skill-badge"><i class="fa-solid fa-table text-blue"></i> pandas</span>
+              <span class="skill-badge"><i class="fa-solid fa-calculator text-cyan"></i> NumPy</span>
+              <span class="skill-badge"><i class="fa-solid fa-brain text-purple"></i> Machine Learning</span>
+              <span class="skill-badge"><i class="fa-solid fa-comments text-orange"></i> NLP (Natural Language)</span>
+              <span class="skill-badge"><i class="fa-solid fa-filter"></i> RFM Customer Segmentation</span>
+              <span class="skill-badge"><i class="fa-solid fa-magnifying-glass-chart"></i> EDA &amp; Data Cleaning</span>
+            </div>
+          </div>
+
+          <!-- Backend Frameworks -->
+          <div class="skill-category-card glass-panel" data-category="web-db">
+            <div class="category-header">
+              <div class="category-icon icon-orange"><i class="fa-solid fa-server"></i></div>
+              <h3>Backend &amp; Mobile</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge"><i class="fa-solid fa-bolt text-green"></i> FastAPI</span>
+              <span class="skill-badge"><i class="fa-solid fa-pepper-hot text-red"></i> Flask</span>
+              <span class="skill-badge"><i class="fa-brands fa-android text-green"></i> Android Studio</span>
+              <span class="skill-badge"><i class="fa-solid fa-code text-cyan"></i> XML Layouts</span>
+              <span class="skill-badge"><i class="fa-solid fa-map-location-dot text-blue"></i> Google Maps API</span>
+            </div>
+          </div>
+
+          <!-- Cloud & Developer Tools -->
+          <div class="skill-category-card glass-panel" data-category="cloud-tools">
+            <div class="category-header">
+              <div class="category-icon icon-blue"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+              <h3>Cloud &amp; Developer Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge"><i class="fa-brands fa-aws text-orange"></i> AWS (Cloud Foundations)</span>
+              <span class="skill-badge"><i class="fa-solid fa-robot text-orange"></i> UiPath (RPA)</span>
+              <span class="skill-badge"><i class="fa-brands fa-git-alt text-red"></i> Git</span>
+              <span class="skill-badge"><i class="fa-brands fa-github"></i> GitHub</span>
+              <span class="skill-badge"><i class="fa-solid fa-code text-blue"></i> VS Code</span>
+              <span class="skill-badge"><i class="fa-solid fa-book-open text-orange"></i> JupyterLab</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Hands-on Experience</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">
+            Rigorous, end-to-end projects demonstrating problem solving, data processing at scale, and full-stack software development.
+          </p>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="filter-tabs" id="projects-filter">
+          <button class="filter-btn active" data-filter="all">All Projects (4)</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning &amp; AI</button>
+          <button class="filter-btn" data-filter="data">Data Analytics &amp; BI</button>
+          <button class="filter-btn" data-filter="app">Web &amp; Mobile Apps</button>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: Credit Card Fraud Detection -->
+          <article class="project-card glass-panel" data-category="ml">
+            <div class="project-card-header">
+              <div class="project-type-badge ml-type">
+                <i class="fa-solid fa-shield-halved"></i> Machine Learning &bull; API
+              </div>
+              <span class="project-num">01</span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Credit Card Fraud Detection using ML Classification</h3>
+              <p class="project-desc">
+                An end-to-end fraud detection machine learning workflow engineered to handle severe class imbalance,
+                remove duplicates, and serve real-time predictions via a robust FastAPI microservice.
+              </p>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Eliminated <strong>1,081 duplicate records</strong> during thorough data preprocessing.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Strict train/validation/test split (<strong>170,235 / 56,745 / 56,746</strong> samples) preventing data leakage.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Developed and tested a <strong>FastAPI backend</strong> serving instant prediction with 100% HTTP 200 test passes.</span>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">pandas</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">REST APIs</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <button class="btn btn-outline btn-sm view-details-btn" data-modal="modal-fraud">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </button>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <i class="fa-brands fa-github"></i> Repository
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Online Retail Business Analytics -->
+          <article class="project-card glass-panel" data-category="data">
+            <div class="project-card-header">
+              <div class="project-type-badge data-type">
+                <i class="fa-solid fa-chart-column"></i> Data Analytics &bull; BI
+              </div>
+              <span class="project-num">02</span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Online Retail Business Analytics &amp; RFM Segmentation</h3>
+              <p class="project-desc">
+                Large-scale exploratory data analysis and executive business intelligence dashboarding built on 540k+ retail transactions to drive customer retention and sales optimization.
+              </p>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Analyzed <strong>541,909 retail invoice records</strong> (Dec 2010–Dec 2011) uncovering product and country revenue drivers.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Cleaned missing data, converted schemas, and engineered SQL &amp; Python EDA pipelines.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Implemented <strong>RFM Analysis</strong> (Recency, Frequency, Monetary) to segment customers into actionable tiers.</span>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">pandas</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">Excel</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <button class="btn btn-outline btn-sm view-details-btn" data-modal="modal-retail">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </button>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <i class="fa-brands fa-github"></i> Repository
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Food Donation App -->
+          <article class="project-card glass-panel" data-category="app">
+            <div class="project-card-header">
+              <div class="project-type-badge app-type">
+                <i class="fa-solid fa-mobile-screen"></i> Android &bull; Cloud Backend
+              </div>
+              <span class="project-num">03</span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Surplus Food Donation Android Application</h3>
+              <p class="project-desc">
+                A social-impact mobile solution designed to eliminate food waste by connecting surplus-food donors (restaurants, events, caterers) with nearby shelters and recipients in real-time.
+              </p>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Engineered responsive Android UI layouts in <strong>XML</strong> with <strong>Java</strong> backend controllers.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Integrated <strong>Firebase Authentication</strong> &amp; Realtime Database for secure live donation updates.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Leveraged <strong>Google Maps API</strong> for dynamic geolocation routing and proximity-based donor discovery.</span>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Android Studio</span>
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">Google Maps API</span>
+                <span class="tech-tag">XML</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <button class="btn btn-outline btn-sm view-details-btn" data-modal="modal-food">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </button>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <i class="fa-brands fa-github"></i> Repository
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: Medical Image Detection & NLP Chatbot -->
+          <article class="project-card glass-panel" data-category="ml">
+            <div class="project-card-header">
+              <div class="project-type-badge ml-type">
+                <i class="fa-solid fa-stethoscope"></i> Healthcare AI &bull; Web
+              </div>
+              <span class="project-num">04</span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Medical Image Detection &amp; NLP Chatbot Prototype</h3>
+              <p class="project-desc">
+                An intelligent healthcare assistant prototype combining deep learning image classification for pathology diagnosis with an interactive NLP chatbot powered by Flask.
+              </p>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Classifies medical imagery for <strong>lung cancer</strong>, <strong>fetal ultrasound anomalies</strong>, and <strong>brain hemorrhage</strong>.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Interactive <strong>NLP chatbot interface</strong> providing diagnostic context and preliminary patient inquiry guidance.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check-circle text-accent"></i>
+                  <span>Built on a lightweight, modular <strong>Flask backend</strong> for responsive client-server communication.</span>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">NLP</span>
+                <span class="tech-tag">Computer Vision</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <button class="btn btn-outline btn-sm view-details-btn" data-modal="modal-medical">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </button>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <i class="fa-brands fa-github"></i> Repository
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="education section" id="education">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Academic Background</span>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Academics</span></h2>
+          <p class="section-subtitle">
+            Solid foundations in Information Technology and Mathematics backing every solution I engineer.
+          </p>
+        </div>
+
+        <div class="education-timeline">
+          <!-- College -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-badge-row">
+                <span class="badge-pill pill-primary">Undergraduate Degree</span>
+                <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2022 &ndash; 2026 (Final Year / Fresher)</span>
+              </div>
+              <h3 class="education-degree">B.Tech in Information Technology</h3>
+              <h4 class="education-institution">
+                <i class="fa-solid fa-building-columns"></i> CVR College of Engineering, Hyderabad
+              </h4>
+              <div class="education-score">
+                <span class="score-pill"><i class="fa-solid fa-award"></i> Current CGPA: <strong>7.23 / 10</strong></span>
+                <span class="score-status"><i class="fa-solid fa-circle-check text-green"></i> In Good Standing</span>
+              </div>
+              <p class="education-desc">
+                Core coursework emphasizing algorithmic thinking, software engineering methodologies, database design,
+                object-oriented programming, and computer networks. Active participant in technical projects and laboratory work.
+              </p>
+              <div class="coursework-tags">
+                <span class="cw-tag">Data Structures &amp; Algorithms</span>
+                <span class="cw-tag">Database Management (DBMS)</span>
+                <span class="cw-tag">Object-Oriented Programming (OOP)</span>
+                <span class="cw-tag">Web Technologies</span>
+                <span class="cw-tag">Machine Learning</span>
+                <span class="cw-tag">Operating Systems</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Intermediate -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-badge-row">
+                <span class="badge-pill pill-secondary">Intermediate Higher Secondary</span>
+                <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2020 &ndash; 2022</span>
+              </div>
+              <h3 class="education-degree">Intermediate (MPC &ndash; Maths, Physics, Chemistry)</h3>
+              <h4 class="education-institution">
+                <i class="fa-solid fa-building-columns"></i> Narayana Junior College, Hyderabad
+              </h4>
+              <div class="education-score">
+                <span class="score-pill"><i class="fa-solid fa-award"></i> Board Percentage: <strong>89.2%</strong></span>
+                <span class="score-status"><i class="fa-solid fa-star text-yellow"></i> Distinction</span>
+              </div>
+              <p class="education-desc">
+                Rigorous training in advanced analytical mathematics, logic, physical sciences, and calculus,
+                cultivating strong problem-solving and quantitative analytical foundations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="certifications section" id="certifications">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Credentials</span>
+          <h2 class="section-title">Industry <span class="gradient-text">Certifications</span></h2>
+          <p class="section-subtitle">
+            Demonstrated mastery in cloud architectures, robotic process automation, and core software structures.
+          </p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1: AWS -->
+          <div class="cert-card glass-panel">
+            <div class="cert-icon-wrapper aws-cert">
+              <i class="fa-brands fa-aws"></i>
+            </div>
+            <div class="cert-body">
+              <span class="cert-issuer">AWS Academy</span>
+              <h3 class="cert-title">Cloud Foundations</h3>
+              <p class="cert-desc">
+                Validation of cloud computing architecture, core AWS services (EC2, S3, IAM, VPC), cloud security, pricing models, and cloud architectural best practices.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-status"><i class="fa-solid fa-shield-check text-green"></i> Verified Credential</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 2: UiPath -->
+          <div class="cert-card glass-panel">
+            <div class="cert-icon-wrapper uipath-cert">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <div class="cert-body">
+              <span class="cert-issuer">UiPath</span>
+              <h3 class="cert-title">Professional Automation Developer Associate</h3>
+              <p class="cert-desc">
+                Certification in Robotic Process Automation (RPA), workflow modeling, selector debugging, data extraction, and orchestrating automated software bots.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-status"><i class="fa-solid fa-shield-check text-green"></i> Certified Associate</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 3: eBox DSA -->
+          <div class="cert-card glass-panel">
+            <div class="cert-icon-wrapper ebox-cert">
+              <i class="fa-solid fa-code-branch"></i>
+            </div>
+            <div class="cert-body">
+              <span class="cert-issuer">eBox</span>
+              <h3 class="cert-title">Advanced Data Structures Through Java</h3>
+              <p class="cert-desc">
+                Intensive algorithmic track covering linked lists, trees, graphs, sorting &amp; searching algorithms, dynamic programming, and complexity optimization in Java.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-status"><i class="fa-solid fa-shield-check text-green"></i> Completion Verified</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 4: eBox Web -->
+          <div class="cert-card glass-panel">
+            <div class="cert-icon-wrapper web-cert">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="cert-body">
+              <span class="cert-issuer">eBox</span>
+              <h3 class="cert-title">Web Technologies</h3>
+              <p class="cert-desc">
+                Mastery of frontend and client-server architectures, responsive DOM manipulation, HTML5/CSS3 semantics, client scripting, and database connectivity.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-status"><i class="fa-solid fa-shield-check text-green"></i> Completion Verified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / HIRE ME SECTION -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Let's Connect</span>
+          <h2 class="section-title">Open for <span class="gradient-text">Opportunities</span></h2>
+          <p class="section-subtitle">
+            Looking for a dedicated, quick-learning Software Engineer or Data Analyst fresher for your team?
+            Let's discuss how I can contribute from day one.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Contact Info Column -->
+          <div class="contact-info-card glass-panel">
+            <div class="info-header">
+              <div class="fresher-banner">
+                <span class="pulse-dot"></span>
+                <span>Immediate Joiner / 2026 Batch Fresher</span>
+              </div>
+              <h3 class="info-title">Ready to contribute to your engineering goals</h3>
+              <p class="info-desc">
+                I am actively applying for full-time Software Engineer, Data Analyst, Python/Java Developer,
+                and Graduate Trainee roles. Open to relocation across India and remote arrangements.
+              </p>
+            </div>
+
+            <div class="contact-methods">
+              <!-- Email Item -->
+              <div class="method-item">
+                <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="method-details">
+                  <span class="method-label">Direct Email</span>
+                  <a href="mailto:ramiditulasi@gmail.com" class="method-value">ramiditulasi@gmail.com</a>
+                </div>
+                <button class="copy-btn" id="copy-email-btn" title="Copy email address" data-clipboard="ramiditulasi@gmail.com">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Phone Item -->
+              <div class="method-item">
+                <div class="method-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="method-details">
+                  <span class="method-label">Phone &amp; WhatsApp</span>
+                  <a href="tel:+918885336249" class="method-value">+91 8885336249</a>
+                </div>
+                <button class="copy-btn" id="copy-phone-btn" title="Copy phone number" data-clipboard="+918885336249">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Location Item -->
+              <div class="method-item">
+                <div class="method-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="method-details">
+                  <span class="method-label">Current Location</span>
+                  <span class="method-value">Hyderabad, Telangana, India</span>
+                </div>
+              </div>
+
+              <!-- Relocation Item -->
+              <div class="method-item">
+                <div class="method-icon"><i class="fa-solid fa-plane-departure"></i></div>
+                <div class="method-details">
+                  <span class="method-label">Mobility</span>
+                  <span class="method-value">Open to Relocate (Bangalore, Pune, Hyderabad, NCR, etc.)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-socials-row">
+              <span class="social-row-label">Professional Profiles:</span>
+              <div class="social-buttons">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn">
+                  <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card glass-panel">
+            <h3 class="form-title">Send a Direct Message</h3>
+            <p class="form-subtitle">Feel free to reach out for interview invitations, referrals, or discussions.</p>
+
+            <form id="contact-form" class="contact-form" onsubmit="return handleFormSubmit(event)">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name / Organization <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-user input-icon"></i>
+                  <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Recruiter Name / Google HR" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-envelope input-icon"></i>
+                  <input type="email" id="form-email" name="email" class="form-input" placeholder="e.g. recruiter@company.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-role" class="form-label">Role / Subject</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-briefcase input-icon"></i>
+                  <input type="text" id="form-role" name="subject" class="form-input" placeholder="e.g. SDE Fresher Interview Opportunity" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-comment-dots input-icon textarea-icon"></i>
+                  <textarea id="form-message" name="message" rows="4" class="form-input form-textarea" placeholder="Hi Tulasi, we came across your portfolio and would love to schedule a preliminary technical round..." required></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+
+              <div id="form-status" class="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand-code">&lt;</span>
+          <span class="brand-name">Tulasi Reddy Ramidi</span>
+          <span class="brand-code">/&gt;</span>
+          <p class="footer-tagline">B.Tech IT Fresher &bull; Aspiring Software Engineer &amp; Data Analyst</p>
+        </div>
+
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Tulasi Reddy Ramidi. Built with passion and clean code.</p>
+        <p class="open-status">
+          <span class="dot-indicator"></span> Actively interviewing for Fresher &amp; Graduate roles.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="toast" role="alert">
+    <i class="fa-solid fa-circle-check toast-icon"></i>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- PROJECT MODALS (Detailed Case Studies) -->
+  
+  <!-- Modal 1: Fraud Detection -->
+  <div class="modal" id="modal-fraud" role="dialog" aria-modal="true" aria-labelledby="modal-fraud-title">
+    <div class="modal-overlay" data-close-modal></div>
+    <div class="modal-dialog glass-panel">
+      <div class="modal-header">
+        <div class="modal-tag ml-type"><i class="fa-solid fa-shield-halved"></i> Machine Learning Project</div>
+        <button class="modal-close" data-close-modal aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h3 id="modal-fraud-title" class="modal-title">Credit Card Fraud Detection using ML Classification</h3>
+        <p class="modal-subtitle">An end-to-end Machine Learning pipeline backed by a high-throughput FastAPI service.</p>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-bullseye"></i> Problem Statement &amp; Objective</h4>
+          <p>
+            Credit card fraud represents billions in global financial losses every year. Due to severe class imbalance (legitimate transactions overwhelmingly outnumber fraudulent ones), typical models suffer from high false-negative rates. The goal was to build a disciplined classification system that reliably flags fraud while maintaining low latency in production.
+          </p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-gears"></i> Key Engineering Highlights</h4>
+          <ul class="modal-list">
+            <li><strong>Data Cleansing:</strong> Identified and eliminated <strong>1,081 duplicate records</strong> from the raw dataset to avoid distorted evaluation metrics.</li>
+            <li><strong>Leakage-Free Partitioning:</strong> Implemented a stratified 3-way split: <strong>170,235 training records</strong>, <strong>56,745 validation records</strong>, and <strong>56,746 test records</strong> to guarantee genuine generalization capability.</li>
+            <li><strong>Model Evaluation:</strong> Optimized for high Recall and PR-AUC to catch suspicious transactions without overburdening manual review queues.</li>
+            <li><strong>FastAPI Microservice:</strong> Built a lightweight REST API that accepts transaction payload JSON, executes inference in milliseconds, and returned verified <strong>HTTP 200 responses</strong> on comprehensive test suites.</li>
+          </ul>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-layer-group"></i> Architecture &amp; Technologies</h4>
+          <div class="modal-badges">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Machine Learning</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">Scikit-Learn</span>
+            <span class="tech-tag">pandas</span>
+            <span class="tech-tag">NumPy</span>
+            <span class="tech-tag">Uvicorn</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+          <i class="fa-brands fa-github"></i> Source Code
+        </a>
+        <button class="btn btn-primary btn-sm" data-close-modal>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Retail Analytics -->
+  <div class="modal" id="modal-retail" role="dialog" aria-modal="true" aria-labelledby="modal-retail-title">
+    <div class="modal-overlay" data-close-modal></div>
+    <div class="modal-dialog glass-panel">
+      <div class="modal-header">
+        <div class="modal-tag data-type"><i class="fa-solid fa-chart-column"></i> Data Analytics Project</div>
+        <button class="modal-close" data-close-modal aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h3 id="modal-retail-title" class="modal-title">Online Retail Business Analytics &amp; RFM Segmentation</h3>
+        <p class="modal-subtitle">Customer segmentation and business intelligence dashboarding across 541k+ transactions.</p>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-bullseye"></i> Problem Statement &amp; Objective</h4>
+          <p>
+            An online retail enterprise needed actionable visibility into their multi-national transactions to optimize marketing spend, retain high-value customers, and predict demand peaks across the calendar year.
+          </p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-gears"></i> Key Engineering Highlights</h4>
+          <ul class="modal-list">
+            <li><strong>Big Dataset Wrangling:</strong> Ingested and scrubbed <strong>541,909 retail invoice transactions</strong> spanning December 2010 through December 2011 using Python (pandas, NumPy) and MySQL.</li>
+            <li><strong>EDA &amp; Data Cleaning:</strong> Handled cancelled invoices, negative unit quantities, missing CustomerIDs, and currency conversions.</li>
+            <li><strong>RFM Customer Segmentation:</strong> Built custom scores for <em>Recency</em> (days since last purchase), <em>Frequency</em> (total orders), and <em>Monetary</em> (total spent) to classify customers into tiers: Champions, Loyal, At-Risk, and Dormant.</li>
+            <li><strong>Power BI Executive Dashboard:</strong> Created dynamic cross-filtering visualizations detailing monthly sales spikes, top 10 revenue-generating products, and international customer distributions.</li>
+          </ul>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-layer-group"></i> Architecture &amp; Technologies</h4>
+          <div class="modal-badges">
+            <span class="tech-tag">Power BI</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">pandas</span>
+            <span class="tech-tag">NumPy</span>
+            <span class="tech-tag">Excel</span>
+            <span class="tech-tag">RFM Modeling</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+          <i class="fa-brands fa-github"></i> Source Code
+        </a>
+        <button class="btn btn-primary btn-sm" data-close-modal>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Food Donation App -->
+  <div class="modal" id="modal-food" role="dialog" aria-modal="true" aria-labelledby="modal-food-title">
+    <div class="modal-overlay" data-close-modal></div>
+    <div class="modal-dialog glass-panel">
+      <div class="modal-header">
+        <div class="modal-tag app-type"><i class="fa-solid fa-mobile-screen"></i> Android Project</div>
+        <button class="modal-close" data-close-modal aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h3 id="modal-food-title" class="modal-title">Surplus Food Donation Android Application</h3>
+        <p class="modal-subtitle">Connecting surplus-food donors with recipients in real-time to curb community food waste.</p>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-bullseye"></i> Problem Statement &amp; Objective</h4>
+          <p>
+            Millions of tons of edible surplus food from functions, catering, and restaurants are discarded daily, while community shelters face constant shortages. This mobile app bridges the gap through instant geolocation matching.
+          </p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-gears"></i> Key Engineering Highlights</h4>
+          <ul class="modal-list">
+            <li><strong>Native Android Architecture:</strong> Developed clean Java activities and fragments with XML layouts in Android Studio following standard Android architecture principles.</li>
+            <li><strong>Firebase Authentication &amp; Sync:</strong> Integrated Firebase Auth for multi-role sign-in (Donors vs. NGOs/Recipients) and Firebase Realtime Database for instant push updates when food items are posted.</li>
+            <li><strong>Google Maps Integration:</strong> Embedded Google Maps API to calculate shortest route paths, display nearby food donation markers, and provide step-by-step navigation.</li>
+          </ul>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-layer-group"></i> Architecture &amp; Technologies</h4>
+          <div class="modal-badges">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Android Studio</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Google Maps API</span>
+            <span class="tech-tag">XML</span>
+            <span class="tech-tag">JSON</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+          <i class="fa-brands fa-github"></i> Source Code
+        </a>
+        <button class="btn btn-primary btn-sm" data-close-modal>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Medical Image & NLP -->
+  <div class="modal" id="modal-medical" role="dialog" aria-modal="true" aria-labelledby="modal-medical-title">
+    <div class="modal-overlay" data-close-modal></div>
+    <div class="modal-dialog glass-panel">
+      <div class="modal-header">
+        <div class="modal-tag ml-type"><i class="fa-solid fa-stethoscope"></i> Healthcare AI Project</div>
+        <button class="modal-close" data-close-modal aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h3 id="modal-medical-title" class="modal-title">Medical Image Detection &amp; NLP Chatbot Prototype</h3>
+        <p class="modal-subtitle">Multi-class pathology diagnostic prototype paired with a conversational medical inquiry bot.</p>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-bullseye"></i> Problem Statement &amp; Objective</h4>
+          <p>
+            Accelerating early-stage pathology triage by providing medical practitioners with an AI second-opinion prototype capable of spotting critical anomalies from radiographic imagery and answering patient queries.
+          </p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-gears"></i> Key Engineering Highlights</h4>
+          <ul class="modal-list">
+            <li><strong>Multi-Condition Image Classification:</strong> Engineered classifiers trained to recognize features for <strong>lung cancer</strong>, <strong>fetal ultrasound abnormalities</strong>, and <strong>brain hemorrhage</strong> scans.</li>
+            <li><strong>NLP Chatbot:</strong> Integrated a rule-guided and intent-based conversational agent to assist users with symptom clarification and preliminary guidance.</li>
+            <li><strong>Flask Micro-Backend:</strong> Built a streamlined REST API using Python and Flask that ingests image uploads, coordinates preprocessing and inference, and renders outcomes on an intuitive web UI.</li>
+          </ul>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-layer-group"></i> Architecture &amp; Technologies</h4>
+          <div class="modal-badges">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Flask</span>
+            <span class="tech-tag">Machine Learning</span>
+            <span class="tech-tag">NLP</span>
+            <span class="tech-tag">Computer Vision</span>
+            <span class="tech-tag">HTML/CSS</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+          <i class="fa-brands fa-github"></i> Source Code
+        </a>
+        <button class="btn btn-primary btn-sm" data-close-modal>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
